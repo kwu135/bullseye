@@ -33,7 +33,8 @@ function getCurrentTabUrl(callback) {
     // from |queryInfo|), then the "tabs" permission is required to see their
     // "url" properties.
     console.assert(typeof url == 'string', 'tab.url should be a string');
-
+    console.log("asdf" + url);
+    
     callback(url);
   });
 
